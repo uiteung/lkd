@@ -1,5 +1,5 @@
 import {setInner} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.2/croot.js";
-import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11';
+import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
 
 
 export function main(){
