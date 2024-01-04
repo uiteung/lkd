@@ -1,9 +1,9 @@
 import { insertHTML } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.4/croot.js";
 // Please change https://jscroot.github.io/skeleton/ into your base url
-import { url } from "/jscroot/url/config.js";
-import { getURLContentJS } from "/jscroot/url/content.js";
-import { showMenu,activeLink } from "/jscroot/controller/navbar.js";
-import { getContentURL } from "/jscroot/url/content.js";
+import { url } from "jscroot/url/config.js";
+import { getURLContentJS } from "jscroot/url/content.js";
+import { showMenu,activeLink } from "jscroot/controller/navbar.js";
+import { getContentURL } from "jscroot/url/content.js";
 
 
 export function runAfterHashChange(evt){
