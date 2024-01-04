@@ -7,7 +7,7 @@ import {runAfterHeader,runAfterContent,runAfterHashChange} from "./controller/ma
 
 
 
-insertHTML(url.header,"header__container",runAfterHeader);
+insertHTML(url.template.header,"header__container",runAfterHeader);
 insertHTML(getContentURL(),"content",runAfterContent);
 onHashChange(runAfterHashChange);
 
