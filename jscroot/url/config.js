@@ -30,8 +30,13 @@ export const url={
         header: folder.view+"header.js",
         search:folder.view+"search.js" ,
         settings:folder.view+"settings.js" ,
-        sidebar:folder.view+"sidebar.js" ,
+        navbar:folder.view+"navbar.js" ,
         footer:folder.view+"footer.js" 
-
     }
+}
+
+export const id={
+    header:"header__container",
+    navbar:"navbar",
+    content:"content"
 }

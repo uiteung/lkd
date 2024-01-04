@@ -1,23 +1,21 @@
 //lib call
 import { insertHTML } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.4/croot.js";
 //internal call
-import { url } from "../url/config.js";
+import { url,id } from "../url/config.js";
 import { getContentURL,getURLContentJS } from "../url/content.js";
-import { showMenu,activeLink } from "./navbar.js";
 
 
 export function runAfterHashChange(evt){
-    insertHTML(getContentURL(),"content",runAfterContent);
+    insertHTML(getContentURL(),id.content,runAfterContent);
 }
 
 export function runAfterHeader(){
-    insertHTML(url.template.navbar,"navbar",runAfterNavbar);
+    insertHTML(url.template.navbar,id.navbar,runAfterNavbar);
 }
 
-function runAfterNavbar(){
-    showMenu('header-toggle','navbar');
-    activeLink('.nav__link');
-    activeLink('.nav__dropdown-item');
+async function runAfterNavbar(){
+    let module = await import(url.view.navbar);
+    module.main();
 }
 
 export async function runAfterContent(){
