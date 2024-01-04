@@ -1,5 +1,6 @@
+//lib call
 import {getHash} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.2/croot.js";
-// Please change https://jscroot.github.io/skeleton/ into your base url
+//internal call
 import { url } from "./config.js";
 
 export function getContentURL(){

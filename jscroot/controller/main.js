@@ -1,5 +1,6 @@
+//lib call
 import { insertHTML } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.4/croot.js";
-// Please change https://jscroot.github.io/skeleton/ into your base url
+//internal call
 import { url } from "../url/config.js";
 import { getContentURL,getURLContentJS } from "../url/content.js";
 import { showMenu,activeLink } from "./navbar.js";
