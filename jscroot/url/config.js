@@ -1,6 +1,6 @@
 //please always use trailing slash(/) for folder or extension for file.
 // Please change https://jscroot.github.io/skeleton/ into your base url
-export const croot = "jscroot/";
+export const croot = "./jscroot/";
 //never use slash in front of file or directory
 export const folder={
     template:croot+"template/",
