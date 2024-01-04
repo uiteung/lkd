@@ -1,7 +1,7 @@
 import {getPath} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.4/croot.js";
 //please always use trailing slash(/) for folder or extension for file.
-// Please change https://jscroot.github.io/skeleton/ into your base url
-export const croot = "/skeleton/jscroot/";
+// Please change skeleton into your base path
+export const croot = "/"+getPath()+"jscroot/";
 
 //never use slash in front of file or directory
 export const folder={
