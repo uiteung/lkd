@@ -5,6 +5,7 @@ import {id} from "../../url/config.js";
 
 export async function main(){
     await addCSSIn("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css",id.content);
+    await addCSSIn("assets/css/forum.css",id.content);
     Swal.fire({
         icon: "success",
         title: "Anda tidak memiliki pesan baru",
