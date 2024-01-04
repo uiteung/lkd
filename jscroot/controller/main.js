@@ -10,7 +10,7 @@ export function runAfterHashChange(evt){
 }
 
 export function runAfterHeader(){
-    insertHTML(url.navbar,"navbar",runAfterNavbar);
+    insertHTML(url.template.navbar,"navbar",runAfterNavbar);
 }
 
 function runAfterNavbar(){
