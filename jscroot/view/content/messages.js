@@ -1,9 +1,10 @@
-import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.4/croot.js";
+import {addCSSIn} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
 import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
+import {id} from "../../url/config.js";
 
 
 export async function main(){
-    await addCSS("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
+    await addCSSIn("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css",id.content);
     Swal.fire({
         icon: "success",
         title: "Anda tidak memiliki pesan baru",
