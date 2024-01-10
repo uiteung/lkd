@@ -4,5 +4,6 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 40vmax;
+  height: 40vh;
+  width: 40vw;
 }
