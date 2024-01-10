@@ -23,7 +23,7 @@ zoom: 9,
 let map;
 
 export async function main(){
-    await addCSSIn("assets/css/styles.css",id.content);
+    await addCSSIn("assets/css/ol.css",id.content);
     map = new Map({
         target: 'map',
         layers: [
